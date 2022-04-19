@@ -1,6 +1,12 @@
 # IMDB-api-clone
-this project is for learning purpose
+* this project is for learning purpose and it is not allowed for any production purpose
 
-anyone else can also use it for learning purpose but not for production
+## Run Project
 
-you only need all to install requirement.txt and migrate  and everything will work
+* to run this project you need to
+    * install requirements.txt by this command:
+      * ```pip install requirements.txt```
+    * migrate the database by the following commands:
+      * ```python manage.py makemigrations```
+      * ```python manage.py migrate```
+      
